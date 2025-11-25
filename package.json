@@ -1,0 +1,17 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "npm install --prefix frontend && npm run build --prefix frontend && node backend/server.js",
+    "build": "npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.7",
+    "cookie-parser": "^1.4.6",
+    "uuid": "^9.0.0",
+    "cors": "^2.8.5"
+  }
+}
