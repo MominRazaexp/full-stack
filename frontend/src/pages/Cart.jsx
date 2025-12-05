@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Trash2, Plus, Minus, ArrowRight } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'https://national-odelle-mohammadkashifsulaiman-f5db89b5.koyeb.app/api';
 
 export default function Cart() {
   const { cart, removeFromCart, updateQuantity, subtotal, clearCart } = useCart();
@@ -127,4 +127,5 @@ export default function Cart() {
       </div>
     </div>
   );
+
 }
