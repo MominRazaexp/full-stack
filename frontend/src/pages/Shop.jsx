@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ProductCard from '../components/ProductCard';
 import { Search } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'https://national-odelle-mohammadkashifsulaiman-f5db89b5.koyeb.app/api';
 
 export default function Shop() {
   const [products, setProducts] = useState([]);
@@ -128,4 +128,5 @@ export default function Shop() {
       </div>
     </div>
   );
+
 }
