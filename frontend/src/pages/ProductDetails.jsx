@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { Star, ShoppingCart, ArrowLeft, Check } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'https://national-odelle-mohammadkashifsulaiman-f5db89b5.koyeb.app/api';
 
 export default function ProductDetails() {
   const { id } = useParams();
@@ -95,4 +95,5 @@ export default function ProductDetails() {
       </div>
     </div>
   );
+
 }
