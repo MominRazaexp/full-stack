@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Truck, Shield, Clock } from 'lucide-react';
 import ProductCard from '../components/ProductCard';
 
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'https://national-odelle-mohammadkashifsulaiman-f5db89b5.koyeb.app/api';
 
 export default function Home() {
   const [featuredProducts, setFeaturedProducts] = useState([]);
@@ -105,4 +105,5 @@ export default function Home() {
       </div>
     </div>
   );
+
 }
